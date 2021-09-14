@@ -20,6 +20,14 @@
 		AB0C778D26F11B5000BF5B64 /* StarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C778C26F11B5000BF5B64 /* StarModel.swift */; };
 		AB0C778F26F11B6000BF5B64 /* MainViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C778E26F11B6000BF5B64 /* MainViewHandler.swift */; };
 		AB0C779126F11B7A00BF5B64 /* SubViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C779026F11B7A00BF5B64 /* SubViewHandler.swift */; };
+		AB0C779626F1252000BF5B64 /* DelayStarModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C779526F1252000BF5B64 /* DelayStarModelState.swift */; };
+		AB0C779826F1284D00BF5B64 /* NavigationRequestModelState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C779726F1284D00BF5B64 /* NavigationRequestModelState.swift */; };
+		AB0C779A26F128A400BF5B64 /* MVCSampleRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0C779926F128A400BF5B64 /* MVCSampleRootView.xib */; };
+		AB0C779C26F128C100BF5B64 /* MVCSampleRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C779B26F128C100BF5B64 /* MVCSampleRootView.swift */; };
+		AB0C779E26F129A200BF5B64 /* MVCSamplePassive.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0C779D26F129A200BF5B64 /* MVCSamplePassive.xib */; };
+		AB0C77A026F129A600BF5B64 /* MVCSamplePassive.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C779F26F129A600BF5B64 /* MVCSamplePassive.swift */; };
+		AB0C77A226F12D7700BF5B64 /* MVCSampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C77A126F12D7700BF5B64 /* MVCSampleController.swift */; };
+		AB0C77A426F1304300BF5B64 /* MVCSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C77A326F1304300BF5B64 /* MVCSampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +67,14 @@
 		AB0C778C26F11B5000BF5B64 /* StarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarModel.swift; sourceTree = "<group>"; };
 		AB0C778E26F11B6000BF5B64 /* MainViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewHandler.swift; sourceTree = "<group>"; };
 		AB0C779026F11B7A00BF5B64 /* SubViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewHandler.swift; sourceTree = "<group>"; };
+		AB0C779526F1252000BF5B64 /* DelayStarModelState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayStarModelState.swift; sourceTree = "<group>"; };
+		AB0C779726F1284D00BF5B64 /* NavigationRequestModelState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRequestModelState.swift; sourceTree = "<group>"; };
+		AB0C779926F128A400BF5B64 /* MVCSampleRootView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MVCSampleRootView.xib; sourceTree = "<group>"; };
+		AB0C779B26F128C100BF5B64 /* MVCSampleRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCSampleRootView.swift; sourceTree = "<group>"; };
+		AB0C779D26F129A200BF5B64 /* MVCSamplePassive.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MVCSamplePassive.xib; sourceTree = "<group>"; };
+		AB0C779F26F129A600BF5B64 /* MVCSamplePassive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCSamplePassive.swift; sourceTree = "<group>"; };
+		AB0C77A126F12D7700BF5B64 /* MVCSampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCSampleController.swift; sourceTree = "<group>"; };
+		AB0C77A326F1304300BF5B64 /* MVCSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCSampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +158,8 @@
 		AB0C778926F11B2800BF5B64 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AB0C779526F1252000BF5B64 /* DelayStarModelState.swift */,
+				AB0C779726F1284D00BF5B64 /* NavigationRequestModelState.swift */,
 				AB0C778C26F11B5000BF5B64 /* StarModel.swift */,
 			);
 			path = Model;
@@ -150,9 +168,11 @@
 		AB0C778A26F11B2C00BF5B64 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AB0C77A126F12D7700BF5B64 /* MVCSampleController.swift */,
 				AB0C779426F11BE400BF5B64 /* ViewHandler */,
 				AB0C775526F10A8300BF5B64 /* ViewController.swift */,
 				AB0C778726F1119B00BF5B64 /* SubViewController.swift */,
+				AB0C77A326F1304300BF5B64 /* MVCSampleViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,6 +182,10 @@
 			children = (
 				AB0C775726F10A8300BF5B64 /* Main.storyboard */,
 				AB0C778526F1118F00BF5B64 /* Sub.storyboard */,
+				AB0C779926F128A400BF5B64 /* MVCSampleRootView.xib */,
+				AB0C779B26F128C100BF5B64 /* MVCSampleRootView.swift */,
+				AB0C779D26F129A200BF5B64 /* MVCSamplePassive.xib */,
+				AB0C779F26F129A600BF5B64 /* MVCSamplePassive.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,6 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB0C775E26F10A8300BF5B64 /* LaunchScreen.storyboard in Resources */,
+				AB0C779A26F128A400BF5B64 /* MVCSampleRootView.xib in Resources */,
+				AB0C779E26F129A200BF5B64 /* MVCSamplePassive.xib in Resources */,
 				AB0C775B26F10A8300BF5B64 /* Assets.xcassets in Resources */,
 				AB0C775926F10A8300BF5B64 /* Main.storyboard in Resources */,
 				AB0C778626F1118F00BF5B64 /* Sub.storyboard in Resources */,
@@ -308,11 +334,17 @@
 			files = (
 				AB0C778F26F11B6000BF5B64 /* MainViewHandler.swift in Sources */,
 				AB0C775626F10A8300BF5B64 /* ViewController.swift in Sources */,
+				AB0C77A026F129A600BF5B64 /* MVCSamplePassive.swift in Sources */,
+				AB0C77A426F1304300BF5B64 /* MVCSampleViewController.swift in Sources */,
 				AB0C775226F10A8300BF5B64 /* AppDelegate.swift in Sources */,
 				AB0C775426F10A8300BF5B64 /* SceneDelegate.swift in Sources */,
 				AB0C779126F11B7A00BF5B64 /* SubViewHandler.swift in Sources */,
 				AB0C778D26F11B5000BF5B64 /* StarModel.swift in Sources */,
+				AB0C779826F1284D00BF5B64 /* NavigationRequestModelState.swift in Sources */,
 				AB0C778826F1119B00BF5B64 /* SubViewController.swift in Sources */,
+				AB0C779626F1252000BF5B64 /* DelayStarModelState.swift in Sources */,
+				AB0C779C26F128C100BF5B64 /* MVCSampleRootView.swift in Sources */,
+				AB0C77A226F12D7700BF5B64 /* MVCSampleController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

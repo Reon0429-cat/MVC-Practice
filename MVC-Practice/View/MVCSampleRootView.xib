@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MVCSampleRootView" customModule="MVC_Practice" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="338" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwN-9F-3nn">
+                    <rect key="frame" x="118" y="64" width="102" height="132"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                    <state key="normal" title="☆"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxY-q7-OF6">
+                    <rect key="frame" x="154" y="269" width="30" height="30"/>
+                    <state key="normal" title="Go"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="cwN-9F-3nn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4EC-jH-Bfj"/>
+                <constraint firstItem="cwN-9F-3nn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="Jhv-k3-Xsz"/>
+                <constraint firstItem="dxY-q7-OF6" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OPf-7o-XLF"/>
+                <constraint firstItem="dxY-q7-OF6" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="uHZ-lf-Lmb"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="navigationButton" destination="dxY-q7-OF6" id="OMI-BF-anR"/>
+                <outlet property="starButton" destination="cwN-9F-3nn" id="tTq-MF-ArT"/>
+            </connections>
+            <point key="canvasLocation" x="82.608695652173921" y="24.107142857142858"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
